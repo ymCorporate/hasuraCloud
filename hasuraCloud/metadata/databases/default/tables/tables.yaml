@@ -1,5 +1,6 @@
 - "!include public_friend.yaml"
 - "!include public_pizza.yaml"
+- "!include public_pizza2.yaml"
 - "!include public_pizza_order.yaml"
 - "!include public_pizza_topping.yaml"
 - "!include public_pizza_topping_pizza.yaml"
