@@ -1,1 +1,0 @@
-CREATE TABLE "calView"."users" ("id" serial NOT NULL, "email" text NOT NULL, "password" text NOT NULL, "companyname" text, "companyrole" text, PRIMARY KEY ("id") , UNIQUE ("email"), UNIQUE ("password"));
