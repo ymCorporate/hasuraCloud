@@ -1,0 +1,16 @@
+table:
+  name: users
+  schema: public
+insert_permissions:
+  - role: user
+    permission:
+      check:
+        id:
+          _eq: X-Hasura-User-Id
+      columns:
+        - id
+        - companyname
+        - companyrole
+        - email
+        - password
+    comment: ""

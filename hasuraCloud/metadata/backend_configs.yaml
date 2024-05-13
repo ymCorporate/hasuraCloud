@@ -1,15 +1,11 @@
 dataconnector:
   athena:
-    uri: http://localhost:8081/api/v1/athena
+    uri: http://data-connector-agent:8081/api/v1/athena
   mariadb:
-    uri: http://localhost:8081/api/v1/mariadb
-  mongodb:
-    uri: http://localhost:8082
+    uri: http://data-connector-agent:8081/api/v1/mariadb
   mysql8:
-    uri: http://localhost:8081/api/v1/mysql
+    uri: http://data-connector-agent:8081/api/v1/mysql
   oracle:
-    uri: http://localhost:8081/api/v1/oracle
-  redshift:
-    uri: http://localhost:8081/api/v1/redshift
+    uri: http://data-connector-agent:8081/api/v1/oracle
   snowflake:
-    uri: http://localhost:8081/api/v1/snowflake
+    uri: http://data-connector-agent:8081/api/v1/snowflake
