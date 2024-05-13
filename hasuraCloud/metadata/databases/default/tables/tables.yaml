@@ -1,3 +1,4 @@
+- "!include calView_users.yaml"
 - "!include public_friend.yaml"
 - "!include public_pizza.yaml"
 - "!include public_pizza2.yaml"
