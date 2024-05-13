@@ -1,0 +1,3 @@
+table:
+  name: kalenview_events
+  schema: public

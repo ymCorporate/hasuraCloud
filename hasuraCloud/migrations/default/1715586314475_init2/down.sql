@@ -1,0 +1,10 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- CREATE TABLE kalenview_events(
+--     uuid VARCHAR(50) PRIMARY KEY,
+--     title VARCHAR(255),
+--     start TIMESTAMP,
+--     "end" TIMESTAMP,
+--     venue VARCHAR(255),
+--     description VARCHAR(500)
+-- );

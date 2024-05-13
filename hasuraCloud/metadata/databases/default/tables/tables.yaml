@@ -1,1 +1,2 @@
-[]
+- "!include public_kalenview.yaml"
+- "!include public_kalenview_events.yaml"
