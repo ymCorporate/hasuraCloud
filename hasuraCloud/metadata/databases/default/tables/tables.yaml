@@ -5,3 +5,4 @@
 - "!include public_pizza_topping.yaml"
 - "!include public_pizza_topping_pizza.yaml"
 - "!include public_table1.yaml"
+- "!include public_user.yaml"
