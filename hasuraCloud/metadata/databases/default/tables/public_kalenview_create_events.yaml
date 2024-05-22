@@ -1,0 +1,3 @@
+table:
+  name: kalenview_create_events
+  schema: public

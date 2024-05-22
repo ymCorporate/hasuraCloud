@@ -1,0 +1,3 @@
+table:
+  name: bookedslots
+  schema: public

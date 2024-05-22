@@ -1,3 +1,4 @@
 - "!include public_availability.yaml"
-- "!include public_kalenview_events.yaml"
-- "!include public_kalenview_owners.yaml"
+- "!include public_bookedslots.yaml"
+- "!include public_kalenview.yaml"
+- "!include public_kalenview_create_events.yaml"

@@ -1,0 +1,9 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- CREATE TABLE kalenview_create_events (
+--   event_name text PRIMARY KEY,
+--   duration integer NOT NULL,
+--   location_type text NOT NULL,
+--   location_detail text,
+--   created_at timestamp with time zone DEFAULT now() NOT NULL
+-- );
