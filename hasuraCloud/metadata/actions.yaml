@@ -1,6 +1,12 @@
-actions: []
+actions:
+  - name: LoginQuery
+    definition:
+      kind: ""
+      handler: http://host.docker.internal:8888/.netlify/functions/api/login
 custom_types:
   enums: []
-  input_objects: []
-  objects: []
+  input_objects:
+    - name: LoginQueryInput
+  objects:
+    - name: LoginQueryOutput
   scalars: []

@@ -1,0 +1,19 @@
+type Query {
+  LoginQuery(
+    input: LoginQueryInput
+  ): LoginQueryOutput
+}
+
+input LoginQueryInput {
+  email: String!
+  password: String!
+}
+
+type LoginQueryOutput {
+  first_name: String
+  last_name: String
+  uuid: uuid!
+  message: Boolean!
+  token: String!
+}
+
